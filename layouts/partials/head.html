@@ -1,7 +1,6 @@
 <head>
     <meta charset="utf-8" />
     {{ $title := print .Site.Title " | " .Title }}
-    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
     <meta content="{{ $title }}" property="og:title" />
     <meta content="{{ $title }}" property="twitter:title" />
@@ -10,6 +9,8 @@
 
     <link href="/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
     <link href="/images/webclip.png" rel="apple-touch-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <!-- <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-"></script> -->
     <!-- <script type="text/javascript">
         window.dataLayer = window.dataLayer || [];

@@ -1,0 +1,355 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Georgia, serif;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(255, 182, 193);
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 60px;           
+    overflow: hidden;
+}
+
+.navbar a {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 5px;
+    height: 100%; 
+}
+
+
+.navbar a:hover {
+    background-color: #ffa23f;
+}
+
+.image-box {
+    display: flex;
+    overflow-x: auto;
+    max-width: 100%;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+
+.image-box img {
+    height: 400px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media-icons {
+    margin-right: 40px;
+}
+
+.social-media-icons a {
+    margin: 0 20px;
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+.footer {
+    background: url(footer.png);
+    background-size: cover;
+    color: orange;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px; 
+}
+
+
+.footer-social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; 
+}
+
+.paragraph-box {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.about-us-section {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 5px; 
+}
+
+.image-container {
+    flex: 1; 
+}
+
+.image-container img {
+    width: 60%; 
+    height: auto; 
+}
+
+.text-container {
+    flex: 1;
+    padding: 0 20px; 
+}
+
+
+.about-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.about-image-container img {
+    max-width: 65%;
+    max-height: 100%;
+    object-fit: cover; 
+}
+
+.text-box {
+    background-color: rgba(255, 165, 0, 0.5);  
+    border-radius: 15px;  
+    padding: 20px;  
+    margin: 10px;  
+    width: 30%;  
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.about-text-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  
+}
+.about-image-container-thin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.about-image-container-thin img {
+    max-width: 50%; 
+    max-height: 50%; 
+    object-fit: cover; 
+}
+.faq-section {
+    width: 80%;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.faq-title {
+    background: rgba(255,165,0,0.5); 
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.faq-box {
+    background: rgba(255, 166, 0, 0.315); 
+    border-radius: 10px;
+    padding: 10px;
+   
+    margin: 10px 0 10px 10px;
+    width: 80%; 
+    text-align: left; 
+}
+
+.faq-question {
+    font-weight: bold;
+}
+
+.faq-answer {
+    margin-top: 5px;
+}
+.css1{
+    background-color:rgb(255, 182, 193);
+    font-size:50px;
+    font-family: georgia;
+    font-style:italic;
+    font-weight:bold;
+    color:rgb(251, 251, 251);
+    text-shadow: 2px 2px 8px #ff7700;
+  }
+  .contact-heading {
+    text-align: center;
+    margin: 2em 0;
+    font-size: 2em;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.form-group input[type="text"], 
+.form-group input[type="email"], 
+.form-group textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #ffa500; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+.faq-heading img, .contact-heading img {
+    display: block;
+    max-width: 40%; 
+    height: auto; 
+    margin: 0 auto; 
+}
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px; 
+}
+
+.blog-post {
+    background-color: rgba(255, 165, 0, 0.5); 
+    border-radius: 10px; 
+    padding: 20px; 
+    color:rgb(251, 251, 251);
+}
+
+.blog-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:rgb(251, 251, 251);
+}
+
+.blog-image {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+.footer {
+    margin-top: auto; 
+}
+.read-more-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffa500; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+}
+
+.read-more-button:hover {
+    background-color: #ff7700; 
+}
+
+.content-header {
+    font-size: 2em;  
+    color: #fab151;  
+    margin-bottom: 15px;  
+}
+
+.content-image {
+    max-width: 100%;  
+    height: auto;  
+    max-height: 200px;  
+    display: block; 
+    margin: 0 auto; 
+}
+
+.paragraph-box {
+    font-size: 1em;  
+    color: #e6a350;  
+    margin-top: 15px;  
+}
+.service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.service-image, .service-description {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+
+.service-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.service-description {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(250, 50, 163, 0.827);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    background-color: #ff770084
+    
+}
+.custom-hr {
+    height: 2px;
+    border: none;
+    color: rgb(255, 143, 236);
+    background-color: rgb(255, 174, 108);
+}

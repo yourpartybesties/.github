@@ -1,3 +1,25 @@
 baseURL = 'https://yourpartybesties.com/'
 languageCode = 'en-us'
 title = 'Your Party Besties'
+
+
+[[menu.main]]
+    name = "About Us"
+    identifier = "aboutus"
+    url = "/about/"
+    weight = 10
+[[menu.main]]
+    name = "Services"
+    identifier = "services"
+    url = "/services/"
+    weight = 20
+[[menu.main]]
+    name = "Contact Us"
+    identifier = "contact"
+    url = "/contact/"
+    weight = 30
+[[menu.main]]
+    name = "Questions"
+    identifier = "faq"
+    url = "/faq/"
+    weight = 40

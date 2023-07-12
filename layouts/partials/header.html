@@ -1,7 +1,6 @@
-{{ if.IsHome }}
-
-{{ else }}
-    <div class="nav-section wf-section">
-        {{- partial "nav.html" . -}}
-    </div>
-{{ end }}
+<a href="/">
+    <img src="/images/headerbanner.png" alt="logo" class="logo">
+</a>
+<div class="navbar">
+    {{- partial "nav.html" . -}}
+</div>
