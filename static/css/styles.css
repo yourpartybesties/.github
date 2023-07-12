@@ -70,7 +70,7 @@ body {
 }
 
 .footer {
-    background: url(footer.png);
+    background: url(/images/footer.png);
     background-size: cover;
     color: orange;
     font-size: 40px;
